@@ -1,0 +1,4 @@
+
+"SELECT", "INNER JOIN", "FROM"
+
+
