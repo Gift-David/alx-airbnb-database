@@ -12,3 +12,4 @@ WITH PropertyBookingCounts AS (
 
 SELECT property_id, total_bookings_received, RANK() OVER (ORDER BY total_bookings_received DESC) AS property_rank FROM PropertyBookingCounts ORDER BY property_rank ASC, total_bookings_received DESC;
 
+ROW_NUMBER()

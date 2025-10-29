@@ -31,3 +31,7 @@ WHERE
     b.start_date >= '2024-01-01'
 ORDER BY
     b.start_date DESC;
+
+
+AND
+EXPLAIN
